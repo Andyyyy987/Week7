@@ -1,3 +1,4 @@
+// importing Book from the model file
 const Book = require("./model");
 
 const addBook = async (request, response) => {
@@ -15,5 +16,6 @@ const addBook = async (request, response) => {
 };
 
 module.exports = {
+    // key: function name
     addBook: addBook,
 };
